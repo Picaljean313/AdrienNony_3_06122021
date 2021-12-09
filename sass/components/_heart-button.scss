@@ -1,0 +1,38 @@
+.heart-button {
+    position: relative;
+    &__empty-heart {
+        position: absolute;
+        right:0;
+        bottom:0;
+        background-color: white;
+        padding: 0;
+        border: none;
+        transition: right 0ms 200ms;
+        i {
+            font-size: 20px;
+        }
+        &:active {
+            animation: heart-disappearing 200ms forwards;
+        }
+        &:active + .heart-button__filled-heart {
+            animation: heart-filling 200ms ease-in-out forwards;
+        }
+    }
+    &__filled-heart {
+        position: absolute;
+        right:0;
+        bottom:0;
+        transform: scale(0);
+        height: 20px;
+        border: none;
+        background-color: transparent;
+        padding: 0;
+        transform-origin: 50% 100%;
+        i {
+            background: linear-gradient($color-primary, $color-secondary);
+            -webkit-background-clip: text;
+            color: transparent;
+            font-size: 20px;
+        }
+    }
+}

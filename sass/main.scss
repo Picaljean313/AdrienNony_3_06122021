@@ -3,13 +3,14 @@
 @import './utils/variables';
 @import './utils/functions';
 @import './utils/keyframes';
-@import './components/main-button';
 @import './components/step';
 @import './components/restaurant-card';
+@import './components/main-button';
+@import './components/heart-button';
 @import './layouts/header';
 @import './layouts/footer';
 @import './pages/localisation';
 @import './pages/presentation';
 @import './pages/functioning';
-@import './pages/restaurants';
+@import './pages/restaurant-list';
 

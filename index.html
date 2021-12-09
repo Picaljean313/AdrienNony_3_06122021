@@ -8,7 +8,7 @@
         <title>Accueil Ohmyfood!</title>
     </head>
     <body>
-        <header class="header">
+        <header class="header header--shadow">
             <div class="header__logo">
                 <img src="public/images/logo/ohmyfood.png" alt="logo Ohmyfood" />
             </div>
@@ -25,7 +25,7 @@
         <section class="presentation">
             <h1 class="presentation__heading">Réservez le menu qui vous convient</h1>
             <p class="presentation__text">Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
-            <a class="presentation__link" href="#restaurants">
+            <a class="presentation__link" href="#restaurant-list">
                 <button class="main-button" type="button">Explorer nos restaurants</button>
             </a>
         </section>
@@ -61,11 +61,11 @@
                 </div>
             </div>
         </section>
-        <section class="restaurants" id="restaurants">
-            <h2 class="restaurants__heading">Restaurants</h2>
-            <div class="restaurants__list">
+        <section class="restaurant-list" id="restaurant-list">
+            <h2 class="restaurant-list__heading">Restaurants</h2>
+            <div class="restaurant-list__items">
                 <div class="restaurant-card">
-                    <a href="#">
+                    <a href="./menu_1.html">
                         <img class="restaurant-card__image" src="public/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="Restaurant La palette du goût, Ménilmontant, Paris, France" />
                         <div class="restaurant-card__new">
                             <p>Nouveau</p>
@@ -75,15 +75,19 @@
                             <p>Ménilmontant</p>
                         </div>
                     </a>
-                    <button type="button" class="restaurant-card__empty-heart">
-                        <i class="far fa-heart"></i>
-                    </button>
-                    <button type="button" class="restaurant-card__filled-heart">
-                        <i class="fas fa-heart"></i>
-                    </button>
+                    <div class="restaurant-card__heart-button">
+                        <div class="heart-button">
+                            <button type="button" class="heart-button__empty-heart">
+                                <i class="far fa-heart"></i>
+                            </button>
+                            <button type="button" class="heart-button__filled-heart">
+                                <i class="fas fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
                 </div>
                 <div class="restaurant-card">
-                    <a href="#">
+                    <a href="./menu_2.html">
                         <img class="restaurant-card__image" src="public/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="Restaurant La note enchantée, Charonne, Paris, France" />
                         <div class="restaurant-card__new">
                             <p>Nouveau</p>
@@ -93,15 +97,19 @@
                             <p>Charonne</p>
                         </div>
                     </a>
-                    <button type="button" class="restaurant-card__empty-heart">
-                        <i class="far fa-heart"></i>
-                    </button>
-                    <button type="button" class="restaurant-card__filled-heart">
-                        <i class="fas fa-heart"></i>
-                    </button>
+                    <div class="restaurant-card__heart-button">
+                        <div class="heart-button">
+                            <button type="button" class="heart-button__empty-heart">
+                                <i class="far fa-heart"></i>
+                            </button>
+                            <button type="button" class="heart-button__filled-heart">
+                                <i class="fas fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
                 </div>
                 <div class="restaurant-card">
-                    <a href="#">
+                    <a href="./menu_3.html">
                         <img class="restaurant-card__image" src="public/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="Restaurant À la française, Cité Rouge, Paris, France" />
                         <div class="restaurant-card__new restaurant-card__new--invalid">
                             <p>Nouveau</p>
@@ -111,15 +119,19 @@
                             <p>Cité Rouge</p>
                         </div>
                     </a>
-                    <button type="button" class="restaurant-card__empty-heart">
-                        <i class="far fa-heart"></i>
-                    </button>
-                    <button type="button" class="restaurant-card__filled-heart">
-                        <i class="fas fa-heart"></i>
-                    </button>
+                    <div class="restaurant-card__heart-button">
+                        <div class="heart-button">
+                            <button type="button" class="heart-button__empty-heart">
+                                <i class="far fa-heart"></i>
+                            </button>
+                            <button type="button" class="heart-button__filled-heart">
+                                <i class="fas fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
                 </div>
                 <div class="restaurant-card">
-                    <a href="#">
+                    <a href="./menu_4.html">
                         <img class="restaurant-card__image" src="public/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="Restaurant Le délice des sens, Folie-Méricourt, Paris, France" />
                         <div class="restaurant-card__new restaurant-card__new--invalid">
                             <p>Nouveau</p>
@@ -129,12 +141,16 @@
                             <p>Folie-Méricourt</p>
                         </div>
                     </a>
-                    <button type="button" class="restaurant-card__empty-heart">
-                        <i class="far fa-heart"></i>
-                    </button>
-                    <button type="button" class="restaurant-card__filled-heart">
-                        <i class="fas fa-heart"></i>
-                    </button>
+                    <div class="restaurant-card__heart-button">
+                        <div class="heart-button">
+                            <button type="button" class="heart-button__empty-heart">
+                                <i class="far fa-heart"></i>
+                            </button>
+                            <button type="button" class="heart-button__filled-heart">
+                                <i class="fas fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
