@@ -1,0 +1,21 @@
+@keyframes heart-filling {
+    from {
+        transform: scale(0);
+        
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes heart-disappearing {
+    0% {
+        right: 15px;
+    }
+    99% {
+        right: 15px;
+    }
+    100% {
+        right: -9999px;
+    }
+}

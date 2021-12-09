@@ -1,0 +1,11 @@
+.functioning {
+    padding: 40px 15px;
+    &__heading {
+        font-family: 'roboto-bold', sans-serif;
+        font-size: 24px;
+    }
+    &__steps {
+        margin-top: 30px;
+        margin-bottom: -$steps-space-between;
+    }
+}

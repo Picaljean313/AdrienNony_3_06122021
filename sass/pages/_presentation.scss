@@ -1,0 +1,24 @@
+.presentation {
+    padding: 30px 0 40px 0;
+    background-color: $color-background;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__heading {
+        font-family: 'roboto-bold', sans-serif;
+        font-size: 24px;
+        width: 70%;
+        text-align: center;
+    }
+    &__text {
+        font-family: 'roboto-light', sans-serif;
+        font-size: 16px;
+        width: 80%;
+        margin: 15px 0 20px 0;
+        text-align: center;
+    }
+    &__link {
+        display: block;
+        border-radius: 22px;
+    }
+}

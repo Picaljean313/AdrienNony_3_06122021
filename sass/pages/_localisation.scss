@@ -1,0 +1,15 @@
+.localisation {
+    padding: 12px 0 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darken($color-background, 5%);
+    &__icone {
+        margin-right: 20px;
+        font-size: 16px;
+    }
+    &__heading {
+        font-family: 'roboto-regular', sans-serif;
+        font-size: 14px;
+    }
+}

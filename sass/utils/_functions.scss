@@ -1,0 +1,7 @@
+@function high-lightness($color) {
+    @return hsl(hue($color), saturation($color),95%);
+}
+
+@function low-lightness($color) {
+    @return hsl(hue($color), saturation($color),20%);
+}

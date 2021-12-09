@@ -1,0 +1,14 @@
+.main-button {
+    color: white;
+    border:none;
+    padding: 15px 22px;
+    border-radius: 22px;
+    background: linear-gradient($color-secondary, $color-primary);
+    font-family: 'roboto-regular', sans-serif;
+    font-size: 14px;
+    box-shadow: 0 4px 8px darken($color-background, 30%);
+    &:hover {
+        background: linear-gradient(lighten($color-secondary, 5%), lighten($color-primary, 5%));
+        box-shadow: 0 6px 8px darken($color-background, 50%);
+    }
+}

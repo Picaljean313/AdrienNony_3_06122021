@@ -1,0 +1,25 @@
+.header {
+    padding: 15px 0;
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px darken($color-background, 20%);
+    &__logo {
+        height: 25px;
+        img {
+            height: 100%;
+            width: auto;
+        }
+    }
+    &__arrow {
+        position: absolute;
+        left: 20px;
+        font-size: 20px;
+        color: low-lightness($color-background);
+        &--invalid {
+            display: none;
+        }
+    }
+    
+}
