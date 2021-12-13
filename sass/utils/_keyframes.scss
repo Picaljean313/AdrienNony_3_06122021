@@ -19,3 +19,21 @@
         right: -9999px;
     }
 }
+
+@keyframes dish-added-appearance {
+    from {
+        margin-right: -60px;
+    }
+    to {
+        margin-right: 0px;
+    }
+}
+
+@keyframes dish-added-rotation {
+    from {
+        transform: rotate(0turn);
+    }
+    to {
+        transform: rotate(1turn);
+    }
+}

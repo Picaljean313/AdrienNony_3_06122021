@@ -1,0 +1,68 @@
+.dish-card {
+    background-color: white;
+    border: none;
+    display: flex;
+    padding:0;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    height: 60px;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 0 4px 8px darken($color-background, 15%);
+    &:active .dish-card__added {
+        animation: dish-added-appearance 400ms ease-in-out forwards;
+    }
+    &:active .dish-card__added i {
+        animation: dish-added-rotation 400ms ease-in-out forwards;
+    }
+    &__legend {
+        flex: 1;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px;
+        overflow: hidden;
+        h3 {
+            font-family: 'roboto-regular',sans-serif;
+            font-size: 16px;
+            text-align: left;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        p {
+            margin:0;
+            font-family: 'roboto-light', sans-serif;
+            font-size: 14px;
+            text-align: left;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+    &__price {
+        padding-right: 20px;
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
+        p {
+        margin: 0 0 10px 0;
+        font-family: 'roboto-regular',sans-serif;
+        font-size: 16px;
+        }
+    }
+    &__added {
+        margin-right: -60px;
+        height: 100%;
+        width:60px;
+        background-color: $color-tertiary;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        i {
+            color: white;
+            font-size: 20px;
+        }
+    }
+}

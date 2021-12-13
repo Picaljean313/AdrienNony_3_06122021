@@ -1,10 +1,12 @@
 .heart-button {
     position: relative;
+    height: 20px;
+    width: 20px;
     &__empty-heart {
         position: absolute;
         right:0;
         bottom:0;
-        background-color: white;
+        background-color: transparent;
         padding: 0;
         border: none;
         transition: right 0ms 200ms;
