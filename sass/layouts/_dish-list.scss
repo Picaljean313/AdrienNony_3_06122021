@@ -1,6 +1,12 @@
 .dish-list {
     padding: 15px;
     margin-bottom: -15px;
+    animation: menu-appearance 400ms ease-in-out both;
+    @for $i from 1 through 3 {
+        &--#{$i} {
+            animation-delay: 200ms+200ms*$i ;
+        }
+    }
     &__heading {
         font-family: 'roboto-light',sans-serif;
         font-size: 16px;

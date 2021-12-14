@@ -14,10 +14,10 @@
             font-size: 20px;
         }
         &:active {
-            animation: heart-disappearing 200ms forwards;
+            animation: item-disappearance 300ms forwards;
         }
         &:active + .heart-button__filled-heart {
-            animation: heart-filling 200ms ease-in-out forwards;
+            animation: heart-filling 300ms ease-in-out forwards;
         }
     }
     &__filled-heart {

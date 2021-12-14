@@ -9,11 +9,17 @@
     width: 100%;
     overflow: hidden;
     box-shadow: 0 4px 8px darken($color-background, 15%);
-    &:active .dish-card__added {
+    animation: menu-appearance 600ms ease-in-out both;
+    @for $i from 1 through 3 {
+        &--#{$i} {
+            animation-delay: 700ms+200ms*$i ;
+        }
+    }
+    &:active > .dish-card__added {
         animation: dish-added-appearance 400ms ease-in-out forwards;
     }
     &:active .dish-card__added i {
-        animation: dish-added-rotation 400ms ease-in-out forwards;
+        animation: item-rotation 400ms ease-in-out reverse forwards;
     }
     &__legend {
         flex: 1;
