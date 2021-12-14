@@ -270,6 +270,9 @@ h1, h2, h3 {
 .dish-card--3 {
   animation-delay: 1300ms;
 }
+.dish-card--4 {
+  animation-delay: 1500ms;
+}
 .dish-card:active > .dish-card__added {
   animation: dish-added-appearance 400ms ease-in-out forwards;
 }

@@ -10,7 +10,7 @@
     overflow: hidden;
     box-shadow: 0 4px 8px darken($color-background, 15%);
     animation: menu-appearance 600ms ease-in-out both;
-    @for $i from 1 through 3 {
+    @for $i from 1 through 4 {
         &--#{$i} {
             animation-delay: 700ms+200ms*$i ;
         }
