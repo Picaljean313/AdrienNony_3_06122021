@@ -10,9 +10,28 @@
     font-size: 14px;
     font-family: 'roboto-regular', sans-serif;
     box-shadow: 0 4px 8px darken($color-background, 15%);
+    &--1 {
+        @include tablet-desktop {
+            width: 60%;
+            align-self: flex-start;
+            }
+    }
+    &--2 {
+        @include tablet-desktop {
+            width: 60%;
+            align-self: center;
+            }
+    }
+    &--3 {
+        @include tablet-desktop {
+            width: 60%;
+            align-self: flex-end;
+            }
+    }
     &__content {
         display:flex;
         align-items: center;
+        padding-right: 15px;
         i {
             margin: 0 30px;
             color: darken($color-background, 40%);

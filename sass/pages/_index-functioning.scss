@@ -3,9 +3,24 @@
     &__heading {
         font-family: 'roboto-bold', sans-serif;
         font-size: 24px;
+        @include tablet-only {
+            margin-left:15%;
+        }
+        @include desktop-only {
+            margin-left: 25%;
+        }
     }
     &__steps {
         margin-top: 30px;
         margin-bottom: -$steps-space-between;
+        @include tablet-desktop {
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            max-width: 700px;
+            margin: auto; 
+            margin-top: 30px;
+            margin-bottom: -$steps-space-between;
+        }
     }
 }

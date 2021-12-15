@@ -17,11 +17,11 @@
             color: transparent;
         }
         .fa-spinner {
-            font-size: 200px;
+            font-size: 40vmin;
             animation: item-rotation 1200ms cubic-bezier(.6,.2,.4,.8) 3;
         }
         .fa-circle {
-            font-size: 300px;
+            font-size: 60vmin;
             animation: item-rotation 800ms cubic-bezier(.6,.2,.4,.8) 4 reverse;
         }
     } 
