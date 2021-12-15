@@ -1,6 +1,6 @@
 .dish-list {
     padding: 15px;
-    margin-bottom: -15px;
+    margin-bottom: -$dish-card-space-between;
     animation: menu-appearance 400ms ease-in-out both;
     @for $i from 1 through 3 {
         &--#{$i} {

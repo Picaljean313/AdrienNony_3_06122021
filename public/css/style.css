@@ -24,10 +24,9 @@ body {
 
 h1, h2, h3 {
   margin: 0;
-  padding: 0;
 }
 
-@keyframes heart-filling {
+@keyframes item-growth {
   from {
     transform: scale(0);
   }
@@ -252,7 +251,7 @@ h1, h2, h3 {
   animation: item-disappearance 300ms forwards;
 }
 .heart-button__empty-heart:active + .heart-button__filled-heart {
-  animation: heart-filling 300ms ease-in-out forwards;
+  animation: item-growth 300ms ease-in-out forwards;
 }
 .heart-button__filled-heart {
   position: absolute;
